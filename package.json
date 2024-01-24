@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Douglas Moura <douglas.ademoura@gmail.com>",
   "description": "POC on rendering React components from Fastify",
-  "main": "src/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "tsc && node dist/main.js",
     "dev": "tsx --watch src/main.tsx",
