@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "fastify-react",
+  "version": "1.0.0",
+  "author": "Douglas Moura <douglas.ademoura@gmail.com>",
+  "description": "POC on rendering React components from Fastify",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "tsx --watch src/main.tsx",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "pino-pretty": "^10.3.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
