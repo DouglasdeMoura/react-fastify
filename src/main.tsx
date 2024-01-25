@@ -33,8 +33,9 @@ const fastify = Fastify({
 })
 
 fastify.get('/', async function handler(_request, reply) {
-  reply.type('text/html')
   const stream = render({ children: <App />, title: 'Hello, World!' })
+
+  reply.type('text/html')
   reply.send(stream)
 })
 
